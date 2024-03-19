@@ -27,7 +27,7 @@ const Index = () => {
 
   return (
     <Box maxWidth="400px" margin="auto" mt={8}>
-      <Heading mb={8}>Todo App</Heading>
+      <Heading mb={8}>The BEST Todo App</Heading>
       <HStack mb={8}>
         <Input value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="Enter a todo" />
         <Button onClick={handleAddTodo} colorScheme="blue" leftIcon={<FaPlus />}>
